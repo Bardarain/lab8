@@ -9,6 +9,7 @@
 void fill(int*, int);
 int count(int*, int);
 void print(int*, int);
+void printH();
 
 void main(void)
 {
@@ -26,6 +27,8 @@ void main(void)
 	{
 		printf("\nКоличество элементов массива, значения которых равны первому элементу: %i", znach);
 	}
+	
+	printH();
 
 	_getch();
 }
@@ -64,4 +67,9 @@ int count(int *ptr, int size)
 	}
 
 	return k;
+}
+
+void printH()
+{
+	printf("\nХорошего дня!");
 }

@@ -20,7 +20,7 @@ void main(void)
 	znach = count(A, n);
 	if (znach == 0)
 	{
-		printf("\nНету элементов равных первому");
+		printf("\nНету элементов равных первому элементу массива");
 	}
 	else
 	{
